@@ -38,7 +38,6 @@ In this example/test, the entry script is configured to sleep for 15 seconds, pr
     - Upload the URL and Key into a json file to be consumed later (***test/cred.json***)
 
 <br>
-<br>
 
 ## <u>**Stage B - Testing**</u>
 

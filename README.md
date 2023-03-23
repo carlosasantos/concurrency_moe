@@ -66,8 +66,6 @@ In this example/test, the entry script is configured to sleep for 15 seconds, pr
 
     **Example** The following output corresponds to the seen behaviour, showing a total execution time of 45 seconds.
 
-
-    Relality
     ```sh
     request_id: 1
     request 1 has been made at t=0.0011 seconds

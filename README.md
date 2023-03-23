@@ -64,7 +64,7 @@ In this example/test, the entry script is configured to sleep for 15 seconds, pr
 
     **Reality** - 3 concurrent requests have a total execution time of around 45 seconds, meaning that requests are happening sequentially and not parallely
 
-    **Example** The following output corresponds to the seen behaviour, showing a total execution time of 45 seconds.
+    **Example:** The following output corresponds to the seen behaviour, showing a total execution time of 45 seconds.
 
     ```sh
     request_id: 1

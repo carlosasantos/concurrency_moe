@@ -65,7 +65,7 @@ In this example/test, the entry script is configured to sleep for 15 seconds, pr
     **Expectation** - Given that we configured our deployment to accept a maximum concurrency of 3, we expect 3 concurrent requests to have an execution of time of around 15 seconds (as they should happen in parallel)
 
 
-    **Example:** The following output corresponds to the seen behaviour, showing a total execution time of 45 seconds.
+    **Example:** The following output corresponds to the seen behaviour, showing a total execution time of 15 seconds, as expected, demonstrating that concurrency is working as expected.
 
     ```sh
     request_id: 1

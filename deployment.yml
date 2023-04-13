@@ -4,6 +4,8 @@ code_configuration:
   code: code
   scoring_script: score.py
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
+environment_variables:
+  WORKER_COUNT: 3
 # environment: azureml://registries/azureml/environments/minimal-ubuntu20.04-py38-cpu-inference/versions/6
 instance_type: Standard_DS3_v2
 instance_count: 1
